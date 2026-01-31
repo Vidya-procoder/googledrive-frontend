@@ -7,6 +7,7 @@ import ForgotPassword from './components/ForgotPassword';
 import ResetPassword from './components/ResetPassword';
 import Dashboard from './components/Dashboard';
 import SharedFileView from './components/SharedFileView';
+import LandingPage from './components/LandingPage';
 import ProtectedRoute from './components/ProtectedRoute';
 import { isAuthenticated } from './utils/auth';
 
@@ -43,7 +44,7 @@ function App() {
         <Route 
           path="/" 
           element={
-            isAuthenticated() ? <Navigate to="/dashboard" replace /> : <Navigate to="/login" replace />
+            isAuthenticated() ? <Navigate to="/dashboard" replace /> : <LandingPage />
           } 
         />
         <Route path="/register" element={<Register />} />
