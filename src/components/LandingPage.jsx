@@ -63,8 +63,8 @@ const LandingPage = () => {
                 <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-100 rounded-full blur-2xl opacity-50"></div>
                 <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-purple-100 rounded-full blur-2xl opacity-50"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-                  alt="Dashboard Preview" 
+                  src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                  alt="Cloud Storage Preview" 
                   className="rounded-xl shadow-inner border border-gray-200 w-full object-cover"
                 />
               </div>
